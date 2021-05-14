@@ -30,5 +30,5 @@ client.connect(err => {
 
 // Start the API server
 app.listen(PORT, function () {
-    console.log(`🌎  ==> API Server now listening on http://localhost:${PORT} `);
+    console.log(`hello world  ==> API Server now listening on http://localhost:${PORT} `);
 });
