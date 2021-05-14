@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import { Container } from "../../components/Grid";
-import Details from "../../components/Details"
-import BookList from '../../components/BookList';
+import Details from "../../components/Details";
+import BookList from "../../components/BookList";
 import axios from "axios";
-import EmptyList from '../../components/EmptyList';
-import { RemoveBookBtn } from '../../components/Button';
-import { toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-
+import EmptyList from "../../components/EmptyList";
+import { RemoveBookBtn } from "../../components/Button";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 class Saved extends Component {
     state = {
@@ -15,11 +14,9 @@ class Saved extends Component {
         initialized: true
 
     }
-
     componentDidMount() {
         this.getBooks();
     }
-
     getBooks = () => {
         axios.get("/api/books")
             .then(res => {
@@ -27,7 +24,6 @@ class Saved extends Component {
             })
             .catch((err => console.log(err)))
     }
-
     deleteFromDB = id => {
         console.log(id);
 
@@ -39,7 +35,6 @@ class Saved extends Component {
             })
             .catch(err => console.log(err))
     }
-
     render() {
         return (
             <div className=" container bg">
@@ -76,5 +71,4 @@ class Saved extends Component {
         );
     }
 }
-
 export default Saved;

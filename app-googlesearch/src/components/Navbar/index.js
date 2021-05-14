@@ -1,7 +1,8 @@
 // npm install -g add-react-component
 import React, { Component } from "react";
 import "./style.css";
-import { Navbar, Nav } from 'react-bootstrap';
+
+import { Navbar, Nav } from "react-bootstrap";
 
 export default class NavigationBar extends Component {
 // https://www.npmjs.com/package/react-bootstrap-navbar

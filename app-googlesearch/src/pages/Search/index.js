@@ -1,13 +1,13 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 import axios from "axios";
-import './style.css'
+import "./style.css";
 import { Container } from "../../components/Grid";
-import SearchBox from '../../components/SearchBox';
-import BookList from '../../components/BookList';
-import { SearchBtn } from '../../components/Button';
-import EmptyList from '../../components/EmptyList'
-import Details from '../../components/Details'
-import AddBookBtn from '../../components/AddButton'
+import SearchBox from "../../components/SearchBox";
+import BookList from "../../components/BookList";
+import { SearchBtn } from "../../components/Button";
+import EmptyList from "../../components/EmptyList";
+import Details from "../../components/Details";
+import AddBookBtn from "../../components/AddButton";
 
 class Search extends Component {
     state = {
