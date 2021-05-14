@@ -15,13 +15,15 @@
   Tori.danielle.clark91@gmail.com or https://github.com/TSanfordGATech
   
   # Link ----- INPUT before submitting. This is is old one. 
-  No link to deployed project due to type of application, but here is the link to the repo https://github.com/TSanfordGATech/readmegenerator
+  heroku: https://googlereact.herokuapp.com/
+  repo: https://github.com/TSanfordGATech/googlereact
   
   # Description
 In this activity, you'll create a new React-based Google Books Search app. This assignment requires you to create React components, work with helper/util functions, and utilize React lifecycle methods to query and display books based on user searches. You'll also use Node, Express and MongoDB so that users can save books to review or purchase later.
   
   # Install
- To install and run this application please clone the repo, run NPM I, CD into app-googlesearch, run NPM start. 
+ To install and run this application please clone the repo, run NPM I, CD into app-googlesearch, run NPM start.
+  
 # Assignment
 
 This is the assignment details portion and the grading rubric: 
