@@ -1,0 +1,6 @@
+/* format the jumbotron image */
+.jumbotron{
+    background: #DCCFC6;
+   background-image: url(../../images/jumbotronImage.jpg);
+}
+/* googlereact\app-googlesearch\src\images\jumbotronImage.jpg */

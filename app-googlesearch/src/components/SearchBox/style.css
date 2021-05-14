@@ -1,0 +1,14 @@
+/* formatting the box */
+.searchBox{
+    background-color:linen;
+}
+
+/* format text */
+.searhInputBox{
+    text-align: center;
+    margin: auto 20px;
+}
+
+#search-input, #submit-search{
+  margin: 10px;
+}
